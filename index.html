@@ -95,17 +95,18 @@
 .image5{
   width:100px;
 }
-
-
 </style>
+
 
 <head>
    <meta charset="utf-8"></meta>
    <title class = "name" >My Page</title>
 
-  
+
+
 <img class = "image" src ="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/s960x960/17545433_1283711138372471_3606010982777500496_o.jpg?oh=a4d40555116ade5edf37b4f75b51db41&oe=597003C1"></img>
-<div class = "first">
+
+<div id = "111" class = "first">
 <p>Welcome</p>
 </div>
 <div class="second">
@@ -113,10 +114,17 @@
 <hr size="5" align="center" noshade width="80%" color="darkgray">
 </head>
 
-
+<script type="text/javascript">
+   $(document).ready(function() {
+   	$(#target1).fadeIn('slow');
+   	$(#target2).slideDown(5000);
+   	$(#target3).fadeTo('slow', 0.33);
+});
+</script>
 <body background="aliceblue">
+
 <div class ="text0">
-<div class = "text1">
+<div class = "text1" id = "test100">
 <p><b>About me</b></p>
 </div>
 <div class="text11">
@@ -133,11 +141,9 @@
   <p><b>My Page</b></p>
   </div>
   <div class="text22">
-<ul>
-   <li><a href = "https://www.facebook.com/asdfangela">Facebook</a></li>
-   <li><a href = "https://www.instagram.com/waynekuo421/">Instagram</a></li>
-   <li><a href = "https://github.com/kuoweien">GitHub</a></li>
-</ul>
+    <button id = target1>Facebook</button>
+    <button id = target2>Instagram</button>
+    <button id = target3>Github</button>
 </div>
    <hr size="3" align="center" noshade width="50%" color="DCDCDC">
 
@@ -174,7 +180,7 @@
    </tr>
    <tr>
       <td><b>Badge</b></td>
-      <td><img class = "image2" src ="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/17553798_1420817264636818_1139667562800134413_n.jpg?oh=d03d5d96a9cc8bf170eb9d9508a2b87a&oe=596A7CC0"></img></td>
+      <td><a href = "https://www.facebook.com/asdfangela"><img class = "image2" src ="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/17553798_1420817264636818_1139667562800134413_n.jpg?oh=d03d5d96a9cc8bf170eb9d9508a2b87a&oe=596A7CC0"></img></a></td>
       <td><img class = "image3" src ="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/17553788_1420817274636817_2181772174426704510_n.jpg?oh=bc74c87b3671780f37d10b8340add7b5&oe=5956CE96"></img></td>
       <td><img class = "image4" src ="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/17499274_1420817271303484_5979374156911845228_n.jpg?oh=816ee1115ea7cefca0a85f12795c707b&oe=596A4B8E"></img></td>
        <td><img class = "image5" src ="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/17554327_1420817331303478_671640344388251146_n.jpg?oh=4a7624a9828a1da1c52eabee59c7e08d&oe=596D0792"></img></td>
@@ -184,3 +190,4 @@
 </div>
 </body>
 </html>
+
