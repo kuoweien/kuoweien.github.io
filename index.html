@@ -99,13 +99,31 @@
 
 <head>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script type="text/javascript" >
    $(document).ready(function() {
-   	$('#target1').fadeIn('slow');
-   	$('#target').slideDown(5000);
-   	$('#target3').fadeTo('slow', 0.33);
-   	$('p').show(5000);
+   	$("#aboutme1").hide();
+   	$("#aboutme").click(function(){
+     $("#aboutme1").slideToggle("slow");
+	 });
+   	 
+   	$("#mypage1").hide();
+   	$("#mypage").click(function(){
+     $("#mypage1").slideToggle("slow");
+	 });
+   	
+   	$("#myfavorite1").hide();
+   	$("#myfavorite").click(function(){
+     $("#myfavorite1").slideToggle("slow");
+	 });
+   	 
+   	$("#myschool1").hide();
+   	$("#myschool").click(function(){
+     $("#myschool1").slideToggle("slow");
+	 });
+
+   	$("#target2").fadeTo('slow', 0.33);
+   	$("#target3").fadeTo('slow', 0.33);
 });
 </script>
 
@@ -114,7 +132,7 @@
 
 <img class = "image" id = target src ="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/s960x960/17545433_1283711138372471_3606010982777500496_o.jpg?oh=a4d40555116ade5edf37b4f75b51db41&oe=597003C1"></img>
 
-<div id = "111" class = "first">
+<div class = "first">
 <marquee>
 <p>Welcome</p>
 </marquee>
@@ -132,9 +150,9 @@
 
 <div class ="text0">
 <div class = "text1" id = "test100">
-<p><b>About me</b></p>
+<p id="aboutme"><b>About me</b></p>
 </div>
-<div class="text11">
+<div id="aboutme1"class="text11">
 <ul>
     <li>Name : 郭葦恩 (WeienKuo)</li>
     <li>blood : O</li>
@@ -145,9 +163,9 @@
   <hr size="3" align="center" noshade width="50%" color="DCDCDC">
 
   <div class = "text2">
-  <p><b>My Page</b></p>
+  <p id="mypage"><b>My Page</b></p>
   </div>
-  <div class="text22">
+  <div id="mypage1" class="text22">
 
     <p id = target1><button><a href = "https://www.facebook.com/asdfangela">Facebook</a></button></p>
      <p id = target2><button><a href = "https://www.instagram.com/waynekuo421/?hl=zh-tw">Instagram</a></button></p>
@@ -157,9 +175,9 @@
    <hr size="3" align="center" noshade width="50%" color="DCDCDC">
 
 <div class = "text4">
-<p><b>My Favorite</b></p>
+<p id="myfavorite"><b>My Favorite</b></p>
 </div>
-<div class="text44">
+<div id="myfavorite1" class="text44">
 <ul>
     <li>Playing Piano</li>
     <li>Watching Movie</li>
@@ -169,9 +187,9 @@
   <hr size="3" align="center" noshade width="50%" color="DCDCDC">
 
 <div class = "text3">   
-<p id=el><b>My School</b></p>   
+<p id="myschool"><b>My School</b></p>   
 </div>
-<div class="text33">
+<div id="myschool1" class="text33">
 <table border = "1" width = "1000" cellpadding="10">
    <tr>
       <td><b>School</b></td>
@@ -199,6 +217,5 @@
 </div>
 </body>
 </html>
-
 
 
