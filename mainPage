@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	.image{width: 1000px;height:450px;}
+    h2{font-size: 50px;}
+
+</style>
+
+<head>
+
+<div class="w3-container w3-light-grey" id = 123>
+  <h2 style="text-shadow:1px 1px 0 #444">PIXAR</h2>
+</div>
+
+
+</head>
+<body>
+<button class="w3-button w3-hover-black">Our Stroy</button>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hover-red">Film
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Feature Films</a>
+      <a href="#" class="w3-bar-item w3-button">Short Films</a>
+    </div>
+  </div> 
+<button class="w3-button w3-hover-green">Coming Soon</button>
+<button class="w3-button w3-hover-yellow">Contect With Us</button>
+
+
+
+<center><img class = "image" src ="https://scontent.xx.fbcdn.net/v/t31.0-8/18449639_1478149785570232_2101277908220260071_o.jpg?oh=9575f7f2607344324dce2f08e86150c0&oe=59AB9548" style="width:90%"></img></center>
+
+
+
+<div style="margin-left:70px">
+ <div class="w3-panel w3-border-top ">
+    <p><center>Design by 飛向宇宙.浩瀚無敵</center></p>
+  </div>
+</body>
+</html>
