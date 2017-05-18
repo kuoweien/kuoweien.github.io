@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    h2{font-size: 30px;}
+    p{width:100;
+    	position:relative;
+  		left: 175px;}
+    html{width;
+    	:100%;}
+</style>
+<head>
+	<title>Cars 3</title>
+	<div class="w3-container w3-light-grey" id = 123>
+  <h2 style="text-shadow:1px 1px 0 #444">Cars 3</h2>
+    </div>
+</head>
+<body>
+<button class="w3-button w3-hover-black">Our Stroy</button>
+<div class="w3-dropdown-hover">
+    <button class="w3-button w3-hover-red">Film
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Feature Films</a>
+      <a href="#" class="w3-bar-item w3-button">Short Films</a>
+    </div>
+  </div> 
+<button class="w3-button w3-hover-green">Coming Soon</button>
+<button class="w3-button w3-hover-yellow">Contect With Us</button>
+
+<>作品名稱: Cars 3：閃電再起</p>
+
+<p>在美推出:２０１７年６月１６日</p>
+
+<p>片長時間:約？分鐘</p>
+
+<P>原著取材:由迪士尼電腦動畫【Cars：汽車總動員】衍生劇情</P>
+
+<p>內容介紹:</p>
+
+<p>迪士尼ＣＥＯ Bob Iger 是在２０１４年３月股東會上宣布了【Cars 3】的製作計畫，依然由皮克斯動畫工作室負責。根據目前已公布的故事大概內容，會是主角賽車  Lightning McQueen 的一場全新挑戰，當年在活塞盃以菜鳥之姿異軍突起的  Lightning McQueen，如今已是馳騁沙場的賽車老將，雖然他還年輕，但卻不斷有後輩想挑戰他的地位，尤其是一位名叫 Jackson Storm 的年輕選手。面對全新進化的高科技賽事，不敢大意的 McQueen 於是展開一場祕密訓練，找來一位年輕的跑車 Cruz Ramirez 來協助他，要讓自己更精進，不被時代潮流給淘汰。前兩集的導演同時如今也是迪士尼動畫部門創意總監 John Lasseter 日前在東京影展上宣布， 本片將安排一台 Citroën 2CV 車款向宮崎駿的首部執導電影【魯邦三世：卡里奧斯特羅之城】致敬。</p>
+
+<p>製作編導:本片由 Brian Fee 執導。</p>
+
+<p>配音演員:原有角色依然由 Owen Wilson 、Larry the Cable Guy 、Bonnie Hunt  …等擔任配音。新角色 Cruz Ramirez 由 Cristela Alonzo 擔任；Jackson Storm 由 Armie Hammer 擔任。</p>
+
+<p>音樂製作:Randy Newman 負責本片的配樂。</p>
+
+
+</body>
+</html>
