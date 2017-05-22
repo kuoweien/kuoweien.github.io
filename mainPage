@@ -6,7 +6,19 @@
 <style>
 	.image{width: 1000px;height:450px;}
     h2{font-size: 50px;}
-
+body {
+          background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/18447024_1496738637016760_6154671782076011001_n.jpg?oh=f2e4e71462cfac7ae9dff589361ac66b&oe=59BC8F0B");
+          background-attachment: fixed;
+        }
+        .link{
+        	width: 30px;height:30px;
+        	position:relative;
+        	left: 380px;
+        	
+        }
+        .link2{
+        	background: white;
+        }
 </style>
 
 <head>
@@ -18,6 +30,7 @@
 
 </head>
 <body>
+
 <button class="w3-button w3-hover-black">Our Stroy</button>
 <div class="w3-dropdown-hover">
     <button class="w3-button w3-hover-red">Film
@@ -35,11 +48,20 @@
 
 <center><img class = "image" src ="https://scontent.xx.fbcdn.net/v/t31.0-8/18449639_1478149785570232_2101277908220260071_o.jpg?oh=9575f7f2607344324dce2f08e86150c0&oe=59AB9548" style="width:90%"></img></center>
 
-
-
 <div style="margin-left:70px">
  <div class="w3-panel w3-border-top ">
+
+ <div class = "link2">
+<a href="https://www.facebook.com/DisneyPixar/"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/18620085_1484779431573934_3563830398643749025_n.jpg?oh=225f0990faef824820bd48090fad508d&oe=59B1493D" alt="DisneyPixar facebook" class="link" align=""></a>
+
+<a href="http://instagram.com/pixar"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/18622505_1484779474907263_2143605109175411540_n.jpg?oh=3e798e508fddee123e0be253a5172ad1&oe=59AC3EE3" alt="DisneyPixar instagram" class="link" align=""></a>
+
+<a href="https://twitter.com/DisneyPixar"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/18581989_1484779508240593_4393298200156723035_n.jpg?oh=dafe44ae5c2eb150134cd91860dae9e6&oe=59BACDDC" alt="DisneyPixar twitter" class="link" align=""></a>
+
+<a href="http://disneypixar.tumblr.com"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/18557319_1484790231572854_5493607923330375949_n.jpg?oh=039f35bd8c7b089ba6f0a551c965f48d&oe=599F2079" class="link" align=""></a>
+</div>
     <p><center>Design by 飛向宇宙.浩瀚無敵</center></p>
   </div>
+
 </body>
 </html>
