@@ -5,11 +5,19 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
     h2{font-size: 30px;}
-    p{width:100;
+    p {width:100;
     	position:relative;
-  		left: 175px;}
+  		left: 175px;padding-right: 275px}
+    iframe{
+      position:relative;
+      left: 175px;
+    }
     html{width;
     	:100%;}
+     body {
+          background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/18447024_1496738637016760_6154671782076011001_n.jpg?oh=f2e4e71462cfac7ae9dff589361ac66b&oe=59BC8F0B");
+          background-attachment: fixed;
+        }
 </style>
 <head>
 	<title>Cars 3</title>
@@ -30,8 +38,12 @@
   </div> 
 <button class="w3-button w3-hover-green">Coming Soon</button>
 <button class="w3-button w3-hover-yellow">Contect With Us</button>
+<button class="w3-button w3-hover-blue">Back to home</button>
+<br>
 
-<>作品名稱: Cars 3：閃電再起</p>
+<img style = "width: 100%" src ="https://scontent.xx.fbcdn.net/v/t31.0-8/18518342_1481118701940007_4112181057160663237_o.jpg?oh=b539498f03a6f4e1d9bf3023e4b9835d&oe=59781F99" ></img>
+
+<p>作品名稱: Cars 3：閃電再起</p>
 
 <p>在美推出:２０１７年６月１６日</p>
 
@@ -49,6 +61,9 @@
 
 <p>音樂製作:Randy Newman 負責本片的配樂。</p>
 
+<p>預告片:</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2LeOH9AGJQM" frameborder="0" allowfullscreen></iframe>
+<img style = "width: 4%" src ="https://scontent.xx.fbcdn.net/v/t1.0-9/18557482_1484889608229583_2679548896241107434_n.jpg?oh=ef62cca0c516770ec5050ff2760a3504&oe=59AC00B8" align="right"></img>
 </body>
 </html>
