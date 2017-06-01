@@ -20,7 +20,11 @@
     .button2{
         -webkit-transition-duration: 0.4s; 
     	transition-duration: 0.4s;
-
+    	width: 5%;
+		box-sizing:border-box;
+		position:relative;
+		left: 100px;
+		padding-right: 55px;
         }
     .button2:hover {
     	background-color: #008CBA; 
@@ -49,7 +53,7 @@
 
 </head>
 <body>
-<div id="button3">
+
 <a href="https://yulingchang.github.io/web%E4%BD%9C%E6%A5%AD/ourstory.html"><button class="w3-button w3-hover-black">Our Stroy</button></a>
 <div class="w3-dropdown-hover">
     <button class="w3-button w3-hover-red">Film
@@ -63,9 +67,9 @@
 <a href="https://kuoweien.github.io/%E5%B0%88%E9%A1%8C%E7%B6%B2%E7%AB%99/comong%20soon.html"><button class="w3-button w3-hover-green">Coming Soon</button></a>
 <button class="w3-button w3-hover-yellow">Contact With Us</button>
 <a href="https://kuoweien.github.io/專題網站/web專題main.html"><button class="w3-button w3-hover-blue">Back To Home</button></a>
-
+<div id="button3">
 <div class = "submit">
-<P>Thanks for your visit! Please live your valuable advice,we will reply as soon as possible.</P>
+<P><b>Thanks for your visit! Please live your valuable advice,we will reply as soon as possible.</b></P>
     <form action="https://formspree.io/asdfangela@yahoo.com.tw"
       method="POST">
 <div class = "table">
@@ -99,11 +103,11 @@
 
                         </tr>
                      </table>
-        <button class="button2" id="submit">Submit</button>   
+         
 
-    <input type="submit" value="Send">
+    <input type="submit" class="button2" id="submit" value="Submit">
 </form>
-</form>
+
         <p>Program of MIIA, FU-JEN Catholic University, NO.510</p>
         <P>tel(02)-1456-3782</P>
         <p>Fax(02)-5679-9843</p>
