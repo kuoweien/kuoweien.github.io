@@ -1,11 +1,8 @@
 {
-  
-  "name": "Cartoon Network",
-  "short_name": "Cartoon Network",
+   "name": "Cartoon Network",
   "lang": "en-US",
   "start_url": "/",
   "display": "standalone",
-  
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
