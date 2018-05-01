@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
@@ -19,12 +28,19 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
 
     <title>Heroic Features - Start Bootstrap Template</title>
 
@@ -72,7 +88,7 @@
       <!-- Jumbotron Header -->
       <header class="jumbotron my-4">
         <img class="cartoon network" src="image/Cartoon_Network.png" alt="">
-        <h1 class="display-3">Catoon Network</h1>
+        <h1 class="display-3">Cartoon Network</h1>
         <p class="lead">Cartoon Network (abbreviated as CN since 2004) is an American basic cable and satellite television channel owned by Turner Broadcasting System, a subsidiary of Time Warner. It was founded by Betty Cohen and launched on October 1, 1992.</p>
       </header>
 
