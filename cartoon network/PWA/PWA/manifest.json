@@ -3,7 +3,7 @@
   "name": "Cartoon Network",
   "short_name": "Cartoon Network",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "https://kuoweien.github.io/cartoon%20network/PWA/PWA/",
   "display": "standalone",
   
  "icons": [
