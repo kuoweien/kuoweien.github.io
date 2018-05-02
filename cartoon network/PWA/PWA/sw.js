@@ -1,4 +1,4 @@
-﻿<script language="JavaScript">
+<script language="JavaScript">
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js')
     .then(reg => {
@@ -9,5 +9,4 @@ if ('serviceWorker' in navigator) {
       console.log('[Service Worker] Registration failed with ' + error);
     });
 }
-
 </script>
